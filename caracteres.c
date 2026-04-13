@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-int main() 
-{
-    unsigned char arr[256];
+int main() {
+   
+    unsigned char elementos[256];
+    int i;
 
-    for (int i = 0; i < 256; i++) 
-    {
-        arr[i] = i;
+    for (i = 0; i < 256; i++) {
+        elementos[i] = i;
     }
 
-    for (int i = 0; i < 256; i++) 
-    {
-        printf("%c\n", arr[i]);
+   
+    for (i = 0; i < 256; i++) {
+        printf("%d\n", elementos[i]);
     }
-    printf("/nFeito por Leonardo Torrres (https://github.com/Leonardo-Torres01) ");
+
+    printf("\nFeito por Leonardo Torres (https://github.com/Leonardo-Torres01) ");
+
     return 0;
 }
